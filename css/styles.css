@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'brittany';
+    src: url("../css/fonts/brittany_signature/BrittanySignature.ttf"); }
+@font-face {
+    font-family: 'seasons';
+    src: url("../css/fonts/Demo_Fonts/Fontspring-DEMO-theseasons-reg.otf"); }
+
+.flechas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    height: 700px;
+    position: relative;
+}
+
+/* PAGE 1 */
+.page1 {
+    background-image: url(../img/8.png)  ;
+    background-position: center;
+}
+.flecha-no{
+    color: #ffb2e1;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+}
+.titulo1{
+    font-family: 'brittany';
+    font-size: 70px;
+    color: #e6341f;
+}
+.titulo2{
+    font-family: 'seasons';
+    font-size: 60px;
+    color: white;
+}
+.titulo3{
+    font-family: 'seasons';
+    font-size: 20px;
+    color: white;
+}
+a{
+    color: #e6341f;
+    margin-top: 23px;
+    font-size: 50px;
+}
+
+/* PAGE 2 */
+.page2{
+    background-image: url(../img/7.png)  ;
+    background-position: 200px 250px;
+}
+.page2 .titulo1{
+    color: white;
+}
+a img{
+    width: 100%;
+    aspect-ratio: calc(1);
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* PAGE 3 */
+.page3{
+    background-color: #ffb2e1;
+}
+
+/* PAGE 4 */
+.page4{
+    background-image: url(../img/6.png)  ;
+    background-position: center;
+}
+
+  /* PAGE 5 */
+.page5{
+    background-image: url(../img/7.png)  ;
+    background-position: top;
+}
+
+/* PAGE 6 */
+.page6 {
+    background-image: url(../img/8.png)  ;
+    background-position: bottom;
+}
+.div{
+    margin-top: -40px;
+}
+
+/* PAGE 7 */
+.page7{
+    background-image: url(../img/7.png)  ;
+    background-position: 200px 325px;
+}
+
