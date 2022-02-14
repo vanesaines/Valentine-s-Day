@@ -20,20 +20,9 @@
     position: relative;
 }
 
-/* PAGE 1 */
-.page1 {
-    background-image: url(../img/8.png)  ;
-    background-position: center;
-}
+/* GENERAL */
 .flecha-no{
     color: #ffb2e1;
-}
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 700px;
 }
 .titulo1{
     font-family: 'brittany';
@@ -54,6 +43,19 @@ a{
     color: #e6341f;
     margin-top: 23px;
     font-size: 50px;
+}
+
+/* PAGE 1 */
+.page1 {
+    background-image: url(../img/8.png)  ;
+    background-position: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
 }
 
 /* PAGE 2 */
@@ -86,8 +88,7 @@ a img{
   /* PAGE 5 */
 .page5{
     background-image: url(../img/7.png)  ;
-    background-position: top;
-}
+    background-position: top; }
 
 /* PAGE 6 */
 .page6 {
@@ -104,3 +105,19 @@ a img{
     background-position: 200px 325px;
 }
 
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .titulo1{
+        font-size: 35px;
+    }
+    .titulo2{
+        font-size: 25px;
+    }
+    div{
+        text-align: center;
+    }
+    .page6 .titulo2{
+        text-align: center;
+    }
+
+}
